@@ -1,0 +1,13 @@
+{
+  "common": {
+    "lang": "en",
+    "browsehappy": {
+      "en": "You are using an <strong>outdated</strong>&nbsp;browser. Please <a href=\"http://browsehappy.com/\" target=\"_blank\">upgrade your browser</a>&nbsp;to improve your experience.",
+      "ru": "Вы пользуетесь <strong>устаревшим</strong>&nbsp;браузером, который не поддерживает современные веб-стандарты и представляет угрозу вашей безопасности. Пожалуйста, <a href=\"http://browsehappy.com/\" target=\"_blank\">установите современный браузер</a>."
+    },
+    "nojsmsg": {
+      "en": "For full functionality of this site it is necessary to <strong>enable</strong>&nbsp;JavaScript. Here are the instructions how to <a href=\"http://www.enable-javascript.com/\" target=\"_blank\">enable JavaScript</a>&nbsp;in your web browser.",
+      "ru": "Для полной функциональности этого сайта необходимо <strong>включить</strong>&nbsp;JavaScript. Вот инструкции, как <a href=\"http://www.enable-javascript.com/ru/\" target=\"_blank\">включить JavaScript</a>&nbsp;в вашем браузере."
+    }
+  }
+}

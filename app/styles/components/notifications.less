@@ -1,0 +1,50 @@
+/**
+ * Browser warning messages
+ */
+
+.browser-warn-msg {
+  background: @red-misty;
+  border: 1px solid @red-lighty;
+  display: none;
+  margin: 0;
+  padding: 2px 0;
+
+  .lt-ie9 & when (@is-oldie) {
+    display: block;
+
+    .browsehappy {
+      display: block;
+    }
+  }
+  
+  .no-js & {
+    display: block;
+  }
+
+  &,
+  a {
+    color: @red-maroon;
+    font-size: 17px;
+  }
+
+  a {
+    opacity: .9;
+    text-decoration: underline;
+
+    &:focus,
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.browsehappy,
+.nojsmsg {
+  display: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.no-js .nojsmsg {
+  display: block;
+}

@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "master": {
+      "title": "Converty :: Master",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
+    },
+    "index": {
+      "title": "Converty :: Home",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
+    }
+  }
+}

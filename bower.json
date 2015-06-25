@@ -1,0 +1,23 @@
+{
+  "name": "converty",
+  "version": "0.0.1",
+  "authors": [
+    "bedeute <bedeute@gmail.com>"
+  ],
+  "description": "snip.ly clone",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.x"
+  },
+  "overrides": {},
+  "devDependencies": {
+    "font-awesome": "~4.3.0"
+  }
+}

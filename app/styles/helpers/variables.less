@@ -1,0 +1,70 @@
+//
+// Polyfills
+//
+
+@is-oldie: false;
+@is-responsive: true;
+
+
+//
+// Fonts
+//
+
+@base-font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+@merriweather-font-family: 'Merriweather', sans-serif;
+
+
+//
+// Sizes
+//
+
+@container-padding: 15px;
+
+@screen-sm-min: 724px; // Small devices
+@screen-md-min: 960px; // Middle devices
+@screen-lg-min: 1200px; // Large devices
+
+
+
+//
+// Colors
+//
+
+// Base colors
+
+@white: #fff;
+@base: #333;
+@black: #000;
+
+// Red group
+
+@red-misty: #f2dede;
+@red-lighty: #ebccd1;
+@red-maroon: #800000;
+
+// Turquoise
+
+@turquoise: #00c9b6;
+
+@brand-primary: @turquoise;
+
+
+//** Global textual link color.
+@link-color:            darken(@brand-primary, 5%);
+//** Link hover color set via `darken()` function.
+@link-hover-color:      darken(@link-color, 10%);
+
+
+
+//
+// Diff stuff
+//
+
+@sprite-image: url(../images/sprite.png);
+
+// Sticky footer
+
+@layout-breaker-padding-top: 0;
+@footer-height: 50px;
+@footer-padding-top: 10px;
+@footer-padding-bottom: @footer-padding-top;

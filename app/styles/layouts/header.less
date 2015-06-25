@@ -1,0 +1,53 @@
+.header {
+	background: url(../images/cover-background.jpg);
+	min-height: 675px;
+	background-size: cover;
+	.text-center();
+	padding-top: 105px;
+
+
+	> .headline {
+		color: white;
+		font-style: italic;
+	}
+
+	> .subheadline,
+	> .header-action > .action-link {
+		color: white;
+		font-family: @merriweather-font-family;
+	}
+
+	> .header-action {
+		margin: 30px auto 20px;
+	}
+
+
+	.action-link {
+		margin: 6px auto;
+
+		> a {
+			color: white;
+
+			&:hover	{
+
+			}
+		}
+	}
+
+	.header-video-link {
+		display: inline-block;
+		color: white;
+		.opacity(0.6);
+		.transition(all 0.16s ease-in-out);
+
+		> i.fa {
+			display: block;
+		}
+
+		&:hover {
+			text-decoration: none;
+			.opacity(1);
+		}
+	}
+
+}
