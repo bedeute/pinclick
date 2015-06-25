@@ -37,17 +37,14 @@
 </head>
 
 <body>
-  <div class="wrap">
+  <div class="wrap" id="homepage">
     <div class="browser-warn-msg">
       
     </div> <!--/.browser-warn-msg-->
 
-
     {% include "../components/main-nav.swig" %}
-    
-    <header class="header">
-      {% block header %}{% endblock %}
-    </header> <!--/.header-->
+
+    {% include "../components/homepage-header.swig" %}
 
     {% block main %}{% endblock %}
 

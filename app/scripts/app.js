@@ -8,7 +8,7 @@
   'use strict';
 
   $(function() {
-
+  	$('.hovertip').tooltip();
   });
 
 })(jQuery);

@@ -55,10 +55,11 @@ body {
 	position: absolute;
 	width: 100%;
 	height: auto;
+	z-index: 1;
 }
 
 .main-nav-inner {
-	padding: 20px;
+	padding: 30px 50px;
 	&:extend(.clearfix all);
 }
 
@@ -81,9 +82,23 @@ body {
 	}
 }
 
-.homepage-section {
+#homepage {
+
+	.main-nav {
+
+		.logo-pic {
+			display: none;
+		}
+	}
+}
+
+.homepage-section,
+.section {
 	padding-top: 10px;
 	padding-bottom: 24px;
+}
+
+.homepage-section{
 	border-bottom: 1px solid #dfdfdf;
 }
 
@@ -219,5 +234,73 @@ body {
 		font-size: 18px;
 		.box-shadow(0 1px 2px rgba(0, 0, 0, 0.08))
 
+	}
+}
+
+
+//// Pricing Section
+// -------------------------------------------------- 
+
+.pricing {
+	position: relative;
+	&:extend( .clearfix all);
+
+}
+
+.price-card {
+	width: 25%;
+	float: left;
+	font-family: @merriweather-font-family;
+	text-align: center;
+	padding-top: 24px;
+
+	&-inner {
+	border: 1px solid #ccc;
+	margin: -1px;
+	overflow: hidden;
+	}
+}
+
+.price-label {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 10px;
+	display: block;
+	background-color: #aaa;
+	color: white;
+	margin: 0;
+}
+
+.price-amount {
+	color: white;
+	background-color: #bbb;
+	font-size: 52px;
+	font-weight: 500;
+	padding: 12px 8px;
+
+	> span {
+		display: block;
+		font-size: 16px;
+		font-weight: 300;
+	}
+}
+
+.price-feature {
+	padding: 8px 14px;
+	font-weight: 300;
+	color: #555;
+	margin: 0;
+
+	> li {
+		padding: 10px 4px;
+		border-bottom: 1px solid #f3f3f3;
+	}
+}
+
+.price-action {
+	padding: 8px 12px 12px;
+
+	> .btn.btn-primary.btn-lg {
+		// width: 48%;
 	}
 }

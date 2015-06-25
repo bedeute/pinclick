@@ -1,5 +1,9 @@
 <div class="main-nav">
 	<div class="main-nav-inner">
+		<a href="#" class="logo-pic">
+			<img src="images/logo-dummy.png">
+		</a>
+
 		<a href="#" class="hamburger">
 			<span></span>
 			<span></span>

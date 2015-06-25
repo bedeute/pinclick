@@ -1,17 +1,10 @@
-{% extends "layouts/master.swig" %}
+{% extends "layouts/homepage.swig" %}
 
 {% block head %}
   {% parent %}
   <meta name="description" content="{{ meta.index.description }}">
   <meta name="keywords" content="{{ meta.index.keywords }}">
   <title>{{ meta.index.title }}</title>
-  <style type="text/css">
-
-  .template-heading {
-  	font-family: 'Merriweather';
-  	font-weight: 200;
-  }
-  </style>
 {% endblock %}
 
 {% block main %}

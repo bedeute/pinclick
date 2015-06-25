@@ -9,6 +9,12 @@
       "title": "Converty :: Home",
       "description": "snip.ly clone",
       "keywords": "html5, css3, Converty"
+    },
+
+    "pricing": {
+      "title": "Converty :: Pricing",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
     }
   }
 }
