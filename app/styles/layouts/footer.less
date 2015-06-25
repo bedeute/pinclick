@@ -19,6 +19,51 @@
 //   }
 // }
 
+.footer {
+	color: #7b838b;
+	background-color: #2a3948;
+	font-family: @merriweather-font-family;
+	font-weight: 200;
+
+	.logotype {
+		font-size: 52px;
+		font-weight: 400;
+		color: inherit;
+	}
+
+
+	> .homepage-section {
+		border-bottom-color: transparent;
+	}
+
+	a {
+		color: #b5bfc8;
+	}
+
+	> #copyright {
+		background-color: #263441;
+		padding: 20px 0;
+	}
+
+	> #footer-body {
+
+		.list-unstyled {
+			margin-top: 20px;
+
+			> li {
+				color: @brand-primary;
+				font-weight: 400;	
+
+				> a {
+					font-weight: 200;
+					padding: 6px 0;
+					display: inline-block;
+				}
+			}
+		}
+	}
+}
+
 // .footer {
 //   background: @base;
 //   height: @footer-height - @footer-padding-top - @footer-padding-bottom;

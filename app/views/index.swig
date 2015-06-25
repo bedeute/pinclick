@@ -73,12 +73,56 @@
 		</div>
   </section>
 
-	<!-- testimonial -->
-	<section class="homepage-section">
+  
+	<!-- customer -->
+	<section class="homepage-section" id="customer">
 		<div class="container">
 			<h2 class="text-center">Converty on their website</h2>
 			<img src="images/customer-dummy-image.jpg">
 		</div>
 	</section>
+
+	<!-- testimonial -->
+	<section class="homepage-section" id="testimonial">
+		<div class="container">
+			<h2 class="text-center">They’re talking about us...</h2>
+			<div class="testi">
+				<div class="testi-control">
+					<a href="#" class="testi-control-left pull-left"><i class="fa fa-angle-left"></i></a>
+					<a href="#" class="testi-control-right pull-right"><i class="fa fa-angle-right"></i></a>
+				</div>
+				<div class="testi-inner">
+					<div class="testi-pic">
+						<img src="images/testi-image-dummy.jpg">
+					</div>
+					<p>
+						I'm one of your big fans! Converty is just amazing! I always had problems choosing templates or themes whether it's on Tumblr or Wordpress, with a bunch of options, but only few (like really few) that suits my taste. <strong>But Converty won my heart!</strong> -- <em>Ms. Sandei | <strong>republicoflove.com</strong></em>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- action -->
+	<section class="homepage-section" id="action-section">
+		<div class="container">
+			<h2 class="text-center">Start your free trial now.</h2>
+			<div class="text-center">14 days free. No credit card required</div>
+
+			<form role="form" class="form-inline text-center homepage-form">
+				<div class="form-group">
+					<label class="sr-only" for="inputEmail">Email Address</label>
+					<input type="text" class="form-control" id="inputEmail" placeholder="Your email address">
+				</div>
+				<div class="form-group">
+					<label class="sr-only" for="inputPassword">Password</label>
+					<input type="text" class="form-control" id="inputPassword" placeholder="Password">
+				</div>
+				<button type="button" class="btn btn-primary">Create Account</button>
+			</form>
+
+		</div>
+	</section>
+
 
 {% endblock %}
