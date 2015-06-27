@@ -9,7 +9,7 @@
 
 {% block main %}
   <section class="homepage-section">
-  	
+
   </section>
   <section class="homepage-section">
 		<div class="container">
@@ -33,7 +33,7 @@
 					</div>
 					<div class="feature-body">
 						<p>
-							You share great articles all the time—from Mashable, TechCrunch, Buzzfeed, New York Times, etc. Instead of just sharing the article as it is, Sniply helps you turn your followers into users and customers. 
+							You share great articles all the time—from Mashable, TechCrunch, Buzzfeed, New York Times, etc. Instead of just sharing the article as it is, Sniply helps you turn your followers into users and customers.
 						</p>
 						<a href="#">Read our case studies</a>
 					</div>
@@ -66,7 +66,7 @@
 		</div>
   </section>
 
-  
+
 	<!-- customer -->
 	<section class="homepage-section" id="customer">
 		<div class="container">
@@ -111,7 +111,7 @@
 					<label class="sr-only" for="inputPassword">Password</label>
 					<input type="text" class="form-control" id="inputPassword" placeholder="Password">
 				</div>
-				<button type="button" class="btn btn-primary">Create Account</button>
+				<button type="button" class="btn btn-edge-lite">Create Account</button>
 			</form>
 
 		</div>

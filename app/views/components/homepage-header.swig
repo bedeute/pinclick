@@ -8,7 +8,7 @@
 	</h1>
 	<span class="subheadline">Get the fast, awesome call-to-action service app for every your links</span>
 	<div class="header-action">
-		<button type="button" class="btn btn-primary btn-lg">Try now. Yes, it’s free</button>
+    <button type="button" class="btn btn-primary btn-lg">Try now. Yes, it’s free</button>
 		<div class="action-link">or <a href="#">Login</a></div>
 	</div>
 

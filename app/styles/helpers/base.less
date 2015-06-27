@@ -13,7 +13,7 @@ body {
 	line-height: 26px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	
+
 }
 
 .feature-heading {
@@ -21,7 +21,7 @@ body {
 	margin-bottom: 4px;
 
 	> h3 {
-		margin-top: 30px; 
+		margin-top: 30px;
 		font-weight: 300;
 	}
 
@@ -63,7 +63,7 @@ body {
 	&:extend(.clearfix all);
 }
 
-.hamburger {
+.hamburger-icon {
 	display: inline-block;
 	float: right;
 
@@ -107,7 +107,7 @@ body {
 }
 
 #action-section	 {
-	background-color: @brand-primary;
+	background-color: #65C6BB;
 	color: white;
 	padding-top: 20px;
 	border-color: transparent;
@@ -123,18 +123,16 @@ body {
 	}
 
 	.homepage-form > button {
-		background-color: darken(@brand-primary, 5%);
-		border-color: darken(@brand-primary, 5%);
+		.box-shadow(inset 0 0 0 2px rgba(255, 255, 255, 0.4));
 
 		&:hover {
-			background-color: darken(@brand-primary, 3%);
-			border-color: darken(@brand-primary, 3%);		
+      color: #65C6BB;
 		}
 	}
 }
 
 // testimonial section
-// -------------------------------------------------- 
+// --------------------------------------------------
 
 #testimonial {
 	background-color: #dbf3f0;
@@ -239,7 +237,7 @@ body {
 
 
 //// Pricing Section
-// -------------------------------------------------- 
+// --------------------------------------------------
 
 .pricing {
 	position: relative;
@@ -253,12 +251,45 @@ body {
 	font-family: @merriweather-font-family;
 	text-align: center;
 	padding-top: 24px;
+  background-color: white;
 
 	&-inner {
-	border: 1px solid #ccc;
-	margin: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	margin: 5px;
 	overflow: hidden;
 	}
+
+  &-pop {
+    padding-top: 0;
+    z-index: 2;
+
+    .price-card-color(@turquoise);
+
+    > .price-card-inner {
+      border-radius: 8px;
+    }
+
+    .price-label,
+    .price-amount {
+      padding: 17px 10px;
+    }
+
+
+
+    .price-action {
+      padding: 14px 12px 20px;
+    }
+  }
+
+  &:first-child > .price-card-inner {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  &:last-child > .price-card-inner {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
 }
 
 .price-label {
@@ -303,4 +334,17 @@ body {
 	> .btn.btn-primary.btn-lg {
 		// width: 48%;
 	}
+}
+
+// Price card coloring
+.price-card-blue {
+  .price-card-color(#52B3D9);
+}
+
+.price-card-yellow {
+  .price-card-color(#F5AB35);
+}
+
+.price-card-purple {
+  .price-card-color(#913D88);
 }

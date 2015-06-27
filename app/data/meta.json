@@ -15,6 +15,11 @@
       "title": "Converty :: Pricing",
       "description": "snip.ly clone",
       "keywords": "html5, css3, Converty"
+    },
+    "admin": {
+      "title": "Converty :: Dashboard",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
     }
   }
 }

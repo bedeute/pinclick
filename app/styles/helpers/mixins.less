@@ -80,6 +80,61 @@ h1, h2, h3, h4, h5, h6,
 }
 
 //
+// price card coloring
+//
+
+.price-card-color(@color) {
+
+  .price-label {
+    background-color: @color;
+  }
+
+  .price-amount {
+    background-color: lighten(@color, 10%);
+  }
+}
+
+//
+// Button Outline
+//
+.button-outline-variant(@color; @xcolor) {
+  color: @color;
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.3);
+
+  &:focus,
+  &.focus {
+    color: @xcolor;
+    background-color: darken(@color, 5%);
+        border-color: darken(@color, 10%);
+  }
+  &:hover {
+    color: @xcolor;
+    background-color: @color;
+        border-color: @color;
+  }
+  &:active,
+  &.active {
+    color: @xcolor;
+    background-color: darken(@color, 5%);
+        border-color: darken(@color, 7%);
+  }
+}
+
+.btn-edge {
+
+  .button-outline-variant(#777; #fff);
+}
+
+.btn-edge-lite {
+  .button-outline-variant(#fff; #555);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+//
 // re-coloring
 //
 // Links

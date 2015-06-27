@@ -28,12 +28,14 @@ opts.src = {
   scripts: {
     dev: 'app/scripts/**/*.js',
     head: [
-      
+
       'app/scripts/head.js'
     ],
     app: [
       'bower_components/jquery/dist/jquery.js',
       'bower_components/bootstrap/js/**/*.js',
+      'bower_components/pikaday/pikaday.js',
+      'bower_components/pikaday/plugins/pikaday.jquery.js',
       'app/scripts/app.js'
     ]
   },
@@ -59,7 +61,7 @@ opts.src = {
 opts.dest = {
   data: 'app/data',
   views: '.tmp',
-  
+
   styles: '.tmp/styles',
   scripts: '.tmp/scripts',
   fonts: '.tmp/fonts',
@@ -179,7 +181,7 @@ gulp.task('views', function () {
     .pipe($.data(function() {
       return JSON.parse($.fs.readFileSync(opts.src.locals, 'utf8'));
     }))
-    
+
     .pipe($.swig(opts.views))
     .pipe($.preprocess())
     .pipe($.prettify(opts.prettify))
@@ -205,7 +207,7 @@ gulp.task('styles',  function() {
     .pipe($.newer(opts.dest.styles))
     .pipe($.plumber(opts.notify.styles))
     .pipe($.less())
-    
+
     .pipe($.autoprefixer(opts.autoprefixer))
     .pipe($.csscomb())
     .pipe(gulp.dest(opts.dest.styles))

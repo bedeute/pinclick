@@ -4,7 +4,7 @@
 			<img src="images/logo-dummy.png">
 		</a>
 
-		<a href="#" class="hamburger">
+		<a href="#" class="hamburger-icon">
 			<span></span>
 			<span></span>
 			<span></span>

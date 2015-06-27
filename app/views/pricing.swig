@@ -19,7 +19,7 @@
   <section class="section">
 		<div class="container">
 			<div class="pricing">
-				<div class="price-card">
+				<div class="price-card price-card-blue">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Free
@@ -45,11 +45,11 @@
 							</li>
 						</ul>
 						<div class="price-action">
-						<button type="button" class="btn btn-primary btn-lg btn-block">Get Started</button>
+						<button type="button" class="btn btn-default btn-lg btn-block">Get Started</button>
 						</div>
 					</div>
 				</div>
-				<div class="price-card">
+				<div class="price-card price-card-pop">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Pro
@@ -75,12 +75,12 @@
 							</li>
 						</ul>
 						<div class="price-action">
-						<button type="button" class="btn btn-primary btn-lg">Try</button>
-						<button type="button" class="btn btn-primary btn-lg">Buy</button>
+  						<button type="button" class="btn btn-default btn-lg">Try</button>
+  						<button type="button" class="btn btn-primary btn-lg">Buy</button>
 						</div>
 					</div>
 				</div>
-				<div class="price-card">
+				<div class="price-card price-card-purple">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Startup
@@ -106,12 +106,12 @@
 							</li>
 						</ul>
 						<div class="price-action">
-						<button type="button" class="btn btn-primary btn-lg">Try</button>
+						<button type="button" class="btn btn-default btn-lg">Try</button>
 						<button type="button" class="btn btn-primary btn-lg">Buy</button>
 						</div>
 					</div>
 				</div>
-				<div class="price-card">
+				<div class="price-card price-card-yellow">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Business
@@ -137,7 +137,7 @@
 							</li>
 						</ul>
 						<div class="price-action">
-						<button type="button" class="btn btn-primary btn-lg">Try</button>
+						<button type="button" class="btn btn-default btn-lg">Try</button>
 						<button type="button" class="btn btn-primary btn-lg">Buy</button>
 						</div>
 					</div>
