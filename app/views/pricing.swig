@@ -19,7 +19,7 @@
   <section class="section">
 		<div class="container">
 			<div class="pricing">
-				<div class="price-card price-card-blue">
+				<div class="price-card">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Free
@@ -80,7 +80,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="price-card price-card-purple">
+				<div class="price-card price-card-green">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Startup
@@ -111,7 +111,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="price-card price-card-yellow">
+				<div class="price-card price-card-blue">
 					<div class="price-card-inner">
 						<label class="price-label">
 							Business

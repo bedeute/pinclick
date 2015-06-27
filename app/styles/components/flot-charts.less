@@ -1,0 +1,55 @@
+/* Resets */
+.graph-container,
+.graph-container div,
+.graph-container a,
+.graph-container span {
+    margin: 0;
+    padding: 0;
+}
+
+/* Gradinet and Rounded Corners */
+.graph-container, #tooltip, .graph-info a {
+
+}
+
+/* Graph Container */
+.graph-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.graph-container > div {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.graph-info {
+    width: 590px;
+    margin-bottom: 10px;
+}
+
+
+#tooltip, .graph-info a {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: #646464;
+}
+
+.tickLabel {
+    font-weight: bold;
+    font-size: 12px;
+    color: #666;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#tooltip {
+    position: absolute;
+    display: none;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+    z-index: 3;
+}

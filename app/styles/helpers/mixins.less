@@ -122,7 +122,6 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .btn-edge {
-
   .button-outline-variant(#777; #fff);
 }
 
@@ -131,7 +130,48 @@ h1, h2, h3, h4, h5, h6,
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+//
+// Admin panel coloring
+//
 
+.mca-panel-color(@color) {
+
+  > .ca-panel-icon {
+    background-color: @color;
+  }
+}
+
+.ca-panel-blue {
+  .mca-panel-color(@flat-blue);
+}
+
+.ca-panel-yellow {
+  .mca-panel-color(@flat-yellow);
+}
+
+.ca-panel-orange {
+  .mca-panel-color(@flat-orange);
+}
+
+.ca-panel-purple {
+  .mca-panel-color(@flat-purple);
+}
+
+.ca-panel-green {
+  .mca-panel-color(@flat-green);
+}
+
+.ca-panel-red {
+  .mca-panel-color(@flat-red);
+}
+
+.ca-panel-pink {
+  .mca-panel-color(@flat-pink);
+}
+
+.ca-panel-turquoise {
+  .mca-panel-color(@turquoise);
+}
 
 
 //

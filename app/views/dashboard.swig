@@ -24,11 +24,11 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row" id="ca-panel-stats">
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-green">
         <div class="ca-panel-icon">
-          <i class="fa fa-check"></i>
+          <i class="fa fa-check fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -41,9 +41,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-blue">
         <div class="ca-panel-icon">
-          <i class="fa fa-hand-o-up"></i>
+          <i class="fa fa-hand-o-up fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -56,9 +56,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-yellow">
         <div class="ca-panel-icon">
-          <i class="fa fa-compress"></i>
+          <i class="fa fa-compress fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -71,9 +71,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-turquoise">
         <div class="ca-panel-icon">
-          <i class="fa fa-signal"></i>
+          <i class="fa fa-signal fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -86,9 +86,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-purple">
         <div class="ca-panel-icon">
-          <i class="fa fa-globe"></i>
+          <i class="fa fa-globe fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -101,9 +101,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-pink">
         <div class="ca-panel-icon">
-          <i class="fa fa-file-text"></i>
+          <i class="fa fa-file-text fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -116,9 +116,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-orange">
         <div class="ca-panel-icon">
-          <i class="fa fa-laptop"></i>
+          <i class="fa fa-laptop fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -131,9 +131,9 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel">
+      <div class="ca-panel ca-panel-red">
         <div class="ca-panel-icon">
-          <i class="fa fa-soccer-ball-o"></i>
+          <i class="fa fa-soccer-ball-o fa-2x"></i>
         </div>
         <div class="ca-panel-body">
           <span class="text-muted">
@@ -146,5 +146,38 @@
       </div>
     </div>
   </div>
+
+  <!-- Chart --->
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="ca-graph-box">
+        <div class="graph-container">
+          <div id="graph-lines"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="ca-graph-box">
+        <div class="graph-container">
+          <div id="graph-bars"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Graph HTML -->
+  <div id="graph-wrapper">
+      <div class="graph-container">
+
+      </div>
+  </div>
+  <!-- end Graph HTML -->
+
+  <br>
+  <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addCta">
+    Launch demo modal
+  </button>
 
 {% endblock %}

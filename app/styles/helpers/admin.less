@@ -61,7 +61,7 @@
 .ca-add-cta {
   display: inline-block;
   float: right;
-  padding: 15px 30px;
+  padding: 16px 30px;
   background-color: #262c33;
   color: @brand-primary !important;
 
@@ -177,6 +177,10 @@
 
 
 // Panel Stats
+#ca-panel-stats {
+  margin-bottom: 20px;
+}
+
 .ca-panel {
   position: relative;
   background-color: white;
@@ -188,13 +192,14 @@
 .ca-panel-icon {
   float: left;
   margin: 6px;
-  padding: 16px;
+  padding: 13px;
   background-color: whitesmoke;
+  color: white;
 }
 
 .ca-panel-body {
   overflow: hidden;
-  padding: 10px 8px 10px 4px;
+  padding: 10px 8px 11px 4px;
 
   > span {
     font-weight: bold;
@@ -204,4 +209,15 @@
   > strong {
     font-size: 18px;
   }
+}
+
+.ca-graph-box {
+  &:extend(.clearfix all);
+  background-color: white;
+  position: relative;
+  padding: 12px;
+  .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
+  border-radius: 6px;
+  margin-bottom: 20px;
+
 }

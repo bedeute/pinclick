@@ -37,6 +37,8 @@
 </head>
 
 <body>
+  {% include "../components/add-cta-modal.swig" %}
+
   <div class="admin-wrap">
 
     {% include "../components/admin-header.swig" %}
