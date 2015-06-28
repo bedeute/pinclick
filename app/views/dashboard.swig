@@ -165,16 +165,6 @@
     </div>
   </div>
 
-
-
-  <!-- Graph HTML -->
-  <div id="graph-wrapper">
-      <div class="graph-container">
-
-      </div>
-  </div>
-  <!-- end Graph HTML -->
-
   <br>
   <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#addCta">
     Launch demo modal

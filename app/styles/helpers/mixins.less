@@ -175,6 +175,20 @@ h1, h2, h3, h4, h5, h6,
 
 
 //
+// modal behaviour reset
+//
+.modal {
+
+  // When fading in the modal, animate it to slide down
+  &.fade .modal-dialog {
+    .translate(0, 25%);
+    .transition-transform(~"0.2s ease-in-out");
+  }
+  &.in .modal-dialog { .translate(0, 0) }
+}
+
+
+//
 // re-coloring
 //
 // Links
