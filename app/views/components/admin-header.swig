@@ -9,7 +9,7 @@
     <span></span>
   </a>
 
-  <a href="#" class="ca-add-cta"><i class="fa fa-plus fa-2x"></i></a>
+  <a href="#addCta" class="ca-add-cta" data-toggle="modal"><i class="fa fa-plus fa-2x"></i></a>
   <div class="ca-header-right">
     <a href="#" class="ca-header-search"><i class="fa fa-search"></i></a>
     <a href="#" class="ca-header-acct">

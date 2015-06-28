@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 
@@ -38,6 +39,7 @@
 
 <body>
   {% include "../components/add-cta-modal.swig" %}
+  {% include "../components/cta-added-modal.swig" %}
 
   <div class="admin-wrap">
 
