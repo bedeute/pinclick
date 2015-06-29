@@ -21,7 +21,7 @@
   </div>
 
   <div class="ca-sidebar-action">
-    <a href="#addCta" class="btn btn-primary btn-lg btn-block" data-toggle="modal" >ADD CTA</a>
+    <a href="#ctaAdded" class="btn btn-primary btn-lg btn-block" data-toggle="modal" >ADD CTA</a>
   </div>
 
 </div>

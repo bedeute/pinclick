@@ -170,25 +170,25 @@
     Launch Success modal
   </button>
 
-  <div class="cta-bar">
+  <div class="cta-bar cta-bar-default">
     <div class="cta-bar-inner">
       <a href="" class="cta-bar-user-pic">
         <img src="images/testi-image-dummy.jpg">
       </a>
       <div class="cta-bar-container">
-        <div class="cta-bar-container-header clearfix">
-          <a href="#" class="pull-left">Your Name <i class="fa fa-share-square"></i></a>
+        <div class="cta-bar-header">
+          <a href="#" class="pull-left">Your Name</a>
           <a href="#" class="pull-right">x</a>
           <div class="pull-right">
             <a href="#"><i class="fa fa-share-square"></i></a>
           </div>
         </div>
-        <div class="cta-bar-container-body">
-          <div class="cta-bar-container-message">
+        <div class="cta-bar-body">
+          <div class="cta-bar-body-message">
             Checkouk the best community platform in the world
           </div>
           <div class="cta-bar-action">
-            <button type="button" class="btn btn-primary">Join Now</button>
+            <button type="button" class="btn btn-primary btn-lg">Join Now</button>
           </div>
         </div>
       </div>

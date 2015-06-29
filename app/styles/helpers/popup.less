@@ -1,8 +1,84 @@
-.modal-header {
-  .box-shadow(inset 5px 0px @brand-primary);
-  border-color: rgba(0, 0, 0, 0.05);
+.ca-modal {
 
-  > .modal-title {
-    font-weight: 400;
-  }
+	.modal-dialog {
+		width: 444px;
+	}
+
+	.modal-content {
+		border-color: @brand-primary;
+	}
+
+	.ca-tabs {
+		margin: -5px -6px -10px;
+
+		> li {
+			float: left;
+			padding: 0;
+
+			&.active > a {
+				background-color: white;
+				color: @brand-primary;
+			}
+
+			a {
+				border-top-left-radius: 4px;
+				border-top-right-radius: 4px;
+				padding: 10px;
+				text-decoration: none;
+				color: white;
+				display: inline-block;
+			}
+		}
+	}
+
+	.modal-header {
+		background-color: @brand-primary;
+		&:extend(.clearfix all);
+		padding: 10px;
+		color: white;
+		border-bottom: none;
+
+
+	  > .modal-title {
+	    font-weight: 400;
+	  }
+	}
+
+	.close {
+		position: absolute;
+		right: -20px;
+	}
+	
+}
+
+#ctaAdded {
+
+	.modal-dialog {
+		width: 400px;
+	}
+
+	.modal-content {
+		background-color: @brand-primary;
+		color: white;
+	}
+
+	.modal-body {
+		padding-top: 40px;
+		padding-bottom: 40px;
+
+		.input-group {
+			border: 1px solid white;
+			border-radius: 4px;
+
+			> input {
+				outline: none;
+				.box-shadow(none);
+				border: none;
+
+				&:focus {
+
+				}
+			}
+		}
+	}
 }
