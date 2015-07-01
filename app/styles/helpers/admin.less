@@ -5,7 +5,7 @@
 // Header
 // ------------------------------
 
-.ca-header {
+.pa-header {
   height: 60px;
   width: 100%;
   font-family: @merriweather-font-family;
@@ -31,22 +31,22 @@
   }
 }
 
-.ca-hamburger-icon {
+.pa-hamburger-icon {
   float: left;
   padding: 17px;
 }
 
-.ca-header-right {
+.pa-header-right {
   float: right;
 }
 
-.ca-header-search {
+.pa-header-search {
   vertical-align: top;
   padding: 20px 30px;
   display: inline-block;
 }
 
-.ca-header-acct {
+.pa-header-acct {
   display: inline-block;
   vertical-align: top;
   padding: 15px;
@@ -58,7 +58,7 @@
   }
 }
 
-.ca-add-cta {
+.pa-add-cta {
   display: inline-block;
   float: right;
   padding: 16px 30px;
@@ -75,7 +75,7 @@
 // Sidebar
 // ------------------------------
 
-.ca-sidebar {
+.pa-sidebar {
   width: 260px;
   position: absolute;
   top: 60px;
@@ -99,7 +99,7 @@
   }
 }
 
-.ca-sidebar-menu {
+.pa-sidebar-menu {
   padding: 12px 16px 12px 13px;
   display: inline-block;
   color: #9bb2c8;
@@ -108,14 +108,14 @@
 
   &:hover,
   &:active,
-  .ca-sidebar > ul > li.active & {
+  .pa-sidebar > ul > li.active & {
     color: @brand-primary;
     text-decoration: none;
   }
 }
 
 
-.ca-sidebar-stats {
+.pa-sidebar-stats {
   padding: 18px;
   background-color: #29313a;
 
@@ -125,11 +125,11 @@
   }
 }
 
-.ca-sidebar-stats-text {
+.pa-sidebar-stats-text {
   font-family: @base-font-family;
   font-size: 12px;
 }
-.ca-sidebar-action {
+.pa-sidebar-action {
   padding: 18px;
 
   > .btn {
@@ -141,7 +141,7 @@
 // Body
 // ------------------------------
 
-.ca-body {
+.pa-body {
   background-color: #f3f3f3;
   color: #555;
   margin-left: 260px;
@@ -151,9 +151,14 @@
   border-top-left-radius: 6px;
   .box-shadow(0 0 2px rgba(0, 0, 0, 0.15));
   padding: 20px;
+  .transition(all 0.18s ease-in-out);
+
+  &.shrink {
+    margin-left: 0;
+  }
 }
 
-.ca-box {
+.pa-box {
   &:extend(.clearfix all);
   background-color: white;
   position: relative;
@@ -164,7 +169,7 @@
   margin-bottom: 20px;
 }
 
-.ca-box-wellcome {
+.pa-box-wellcome {
   color: #777;
   border-left-color: #F5D76E;
 
@@ -177,28 +182,29 @@
 
 
 // Panel Stats
-#ca-panel-stats {
+#pa-panel-stats {
   margin-bottom: 20px;
 }
 
-.ca-panel {
+.pa-panel {
   position: relative;
   background-color: white;
   .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
   border-radius: 5px;
   margin-bottom: 14px;
-  overflow: hidden;
 }
 
-.ca-panel-icon {
+.pa-panel-icon {
   float: left;
   // margin: 6px 6px 6px 0;
   padding: 18px;
   background-color: whitesmoke;
   color: white;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
-.ca-panel-body {
+.pa-panel-body {
   overflow: hidden;
   padding: 10px 8px 11px 4px;
 
@@ -212,7 +218,7 @@
   }
 }
 
-.ca-graph-box {
+.pa-graph-box {
   &:extend(.clearfix all);
   background-color: white;
   position: relative;

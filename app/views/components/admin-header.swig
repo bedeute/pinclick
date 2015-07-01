@@ -3,7 +3,7 @@
   <div class="logotype">
     converty
   </div>
-  <a href="#" class="hamburger-icon ca-hamburger-icon">
+  <a href="#" class="hamburger-icon ca-hamburger-icon" id="ca-slider-toggle">
     <span></span>
     <span></span>
     <span></span>

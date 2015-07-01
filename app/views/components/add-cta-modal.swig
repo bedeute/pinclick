@@ -1,10 +1,10 @@
-<div class="modal ca-modal fade in" id="addCta" tabindex="-1" role="dialog" aria-labelledby="addCtaLabel" aria-hidden="true">
+<div class="modal pa-modal fade in" id="addCta" tabindex="-1" role="dialog" aria-labelledby="addCtaLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title pull-left">Create CTA</h4>
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <ul class="list-inline pull-right ca-tabs">
+        <ul class="list-inline pull-right pa-tabs">
           <li class="active"><a href="#editMsg" data-toggle="tab">Edit Message</a></li>
           <li><a href="#customizeCta" data-toggle="tab">Customize</a></li>
         </ul>
@@ -46,7 +46,7 @@
                 <div class="radio">
                   <label>
                     <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                    Image 
+                    Image
                     <span class="locked_feature">
                         <a href="/upgrade/" target="_blank" class="hasTooltip" data-toggle="tooltip" data-original-title="Upgrade to Business">
                             <i class="fa fa-lock"></i>

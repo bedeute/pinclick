@@ -8,13 +8,13 @@
 {% endblock %}
 
 {% block main %}
-  <div class="ca-box ca-box-wellcome">
+  <div class="pa-box pa-box-wellcome">
     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
     <h4>Wellcome to your dashboard</h4>
     You can check the stats and traffic on your card here. Let us know if you have any fedback.
   </div>
 
-  <div class="ca-box ca-box-overview">
+  <div class="pa-box pa-box-overview">
     <h4 class="pull-left">Overview</h4>
     <div class="pull-right form-inline">
       <span>Showing analytics from</span>
@@ -24,13 +24,13 @@
     </div>
   </div>
 
-  <div class="row" id="ca-panel-stats">
+  <div class="row" id="pa-panel-stats">
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-green">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-green">
+        <div class="pa-panel-icon">
           <i class="fa fa-check fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             CTA Created&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -41,11 +41,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-blue">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-blue">
+        <div class="pa-panel-icon">
           <i class="fa fa-hand-o-up fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Clicks&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -56,11 +56,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-yellow">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-yellow">
+        <div class="pa-panel-icon">
           <i class="fa fa-compress fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Conversions&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -71,11 +71,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-turquoise">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-turquoise">
+        <div class="pa-panel-icon">
           <i class="fa fa-signal fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Conversion Rate&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -86,11 +86,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-purple">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-purple">
+        <div class="pa-panel-icon">
           <i class="fa fa-globe fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Avg page per visit&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -101,11 +101,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-pink">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-pink">
+        <div class="pa-panel-icon">
           <i class="fa fa-file-text fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Avg time on landing page&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -116,11 +116,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-orange">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-orange">
+        <div class="pa-panel-icon">
           <i class="fa fa-laptop fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Avg time on site&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -131,11 +131,11 @@
       </div>
     </div>
     <div class="col-sm-3">
-      <div class="ca-panel ca-panel-red">
-        <div class="ca-panel-icon">
+      <div class="pa-panel pa-panel-red">
+        <div class="pa-panel-icon">
           <i class="fa fa-soccer-ball-o fa-2x"></i>
         </div>
-        <div class="ca-panel-body">
+        <div class="pa-panel-body">
           <span class="text-muted">
             Bounce Rate&nbsp;
             <i class="fa fa-question-circle hovertip"  data-placement="bottom" title="" data-original-title="total number of snips you've created (for given timeframe/profile)"></i>
@@ -150,14 +150,14 @@
   <!-- Chart --->
   <div class="row">
     <div class="col-sm-6">
-      <div class="ca-graph-box">
+      <div class="pa-graph-box">
         <div class="graph-container">
           <div id="graph-lines"></div>
         </div>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="ca-graph-box">
+      <div class="pa-graph-box">
         <div class="graph-container">
           <div id="graph-bars"></div>
         </div>
