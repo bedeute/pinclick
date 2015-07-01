@@ -1,18 +1,18 @@
 <!-- admin header -->
-<header class="ca-header">
+<header class="pa-header">
   <div class="logotype">
     converty
   </div>
-  <a href="#" class="hamburger-icon ca-hamburger-icon" id="ca-slider-toggle">
+  <a href="#" class="hamburger-icon pa-hamburger-icon" id="pa-slider-toggle">
     <span></span>
     <span></span>
     <span></span>
   </a>
 
-  <a href="#addCta" class="ca-add-cta" data-toggle="modal"><i class="fa fa-plus fa-2x"></i></a>
-  <div class="ca-header-right">
-    <a href="#" class="ca-header-search"><i class="fa fa-search"></i></a>
-    <div class="ca-header-acct dropdown">
+  <a href="#addCta" class="pa-add-cta" data-toggle="modal"><i class="fa fa-plus fa-2x"></i></a>
+  <div class="pa-header-right">
+    <a href="#" class="pa-header-search"><i class="fa fa-search"></i></a>
+    <div class="pa-header-acct dropdown">
       <a href="#" class="" data-toggle="dropdown">
         <span>Your Name <i class="fa fa-caret-down"></i>&nbsp;</span>
         <img src="images/testi-image-dummy.jpg" width="30" height="30">

@@ -45,7 +45,7 @@
 
     {% include "../components/admin-header.swig" %}
     {% include "../components/admin-sidebar-menu.swig" %}
-    <div class="ca-body">
+    <div class="pa-body">
       {% block main %}{% endblock %}
     </div>
 
