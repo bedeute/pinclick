@@ -12,7 +12,7 @@
   font-weight: 300;
   &:extend( .clearfix all);
 
-  > .logotype {
+  > .logoset {
     font-size: 28px;
     margin-top: 10px;
     margin-left: 20px;
@@ -82,7 +82,7 @@
   bottom: 0;
   background-color: #2d3640;
   color: #98a2ab;
-  font-family: @merriweather-font-family;
+  font-family: @alegreyaSans;
   font-weight: 300;
   font-size: 16px;
 
@@ -162,9 +162,10 @@
   &:extend(.clearfix all);
   background-color: white;
   position: relative;
-  padding: 20px 28px 20px 20px;
+  padding: 20px;
   .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
   border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
   border-radius: 6px;
   margin-bottom: 20px;
 }
@@ -175,7 +176,6 @@
 
   > h1, h2, h3, h4 {
     margin-top: 6px;
-    font-weight: 400;
     color: #555;
   }
 }
@@ -218,15 +218,26 @@
   }
 }
 
-.pa-graph-box {
-  &:extend(.clearfix all);
-  background-color: white;
-  position: relative;
-  padding: 12px;
-  .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
-  border-radius: 6px;
-  margin-bottom: 20px;
+.pa-graph {
+  padding: 12px 6px;
+}
 
+.pa-graph-blue {
+  background-color: @flat-blue;
+}
+
+.pa-graph-orange {
+  background-color: @flat-orange;
+}
+
+.pa-graph-title {
+  font-size: 20px;
+  font-family: @alegreyaSans;
+  font-weight: bold;
+  color: white;
+  margin:0 -12px 10px;
+  padding: 0 18px 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 

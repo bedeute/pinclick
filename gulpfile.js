@@ -35,6 +35,7 @@ opts.src = {
       'bower_components/jquery/dist/jquery.js',
       'bower_components/bootstrap/js/**/*.js',
       'bower_components/Flot/jquery.flot.js',
+      'bower_components/Flot/jquery.flot.resize.js',
       'bower_components/pikaday/pikaday.js',
       'bower_components/pikaday/plugins/pikaday.jquery.js',
       'app/scripts/app.js'

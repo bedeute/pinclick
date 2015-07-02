@@ -1,8 +1,8 @@
 <!-- admin header -->
 <header class="pa-header">
-  <div class="logotype">
-    converty
-  </div>
+  <a href="#" class="logoset">
+    <img src="images/pinclick-logo-white-96x18.png">
+  </a>
   <a href="#" class="hamburger-icon pa-hamburger-icon" id="pa-slider-toggle">
     <span></span>
     <span></span>

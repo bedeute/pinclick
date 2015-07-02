@@ -1,7 +1,7 @@
 <header class="header">
-	<div class="logotype">
-		converty
-	</div>
+	<a href="#" class="logoset">
+		<img src="images/pinclick-logo-white.png">
+	</a>
 	<div class="floral-divider"></div>
 	<h1 class="headline">
 		Let’s Share, Get Massively Effective Conversion

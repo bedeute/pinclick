@@ -150,14 +150,20 @@
   <!-- Chart --->
   <div class="row">
     <div class="col-sm-6">
-      <div class="pa-graph-box">
+      <div class="pa-box pa-graph pa-graph-blue">
+        <div class="pa-graph-title">
+          Clicks
+        </div>
         <div class="graph-container">
           <div id="graph-lines"></div>
         </div>
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="pa-graph-box">
+      <div class="pa-box pa-graph pa-graph-orange">
+        <div class="pa-graph-title">
+          Clicks
+        </div>
         <div class="graph-container">
           <div id="graph-bars"></div>
         </div>
