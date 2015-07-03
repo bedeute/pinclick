@@ -20,6 +20,11 @@
       "title": "Converty :: Dashboard",
       "description": "snip.ly clone",
       "keywords": "html5, css3, Converty"
+    },
+    "account": {
+      "title": "Converty :: Account",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
     }
   }
 }

@@ -162,12 +162,22 @@
   &:extend(.clearfix all);
   background-color: white;
   position: relative;
-  padding: 20px;
+  padding: 16px;
   .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-radius: 6px;
   margin-bottom: 20px;
+}
+
+.pa-box-header {
+  margin: 0 -20px 20px;
+  padding: 0 16px 10px;
+  border-bottom: 1px solid #eee;
+
+  > h1,h2,h3,h4,h5 {
+    margin: 0 auto;
+  }
 }
 
 .pa-box-wellcome {
@@ -180,6 +190,21 @@
   }
 }
 
+// User wrap
+.pa-user {
+  &:extend(.clearfix all);
+  padding: 12px;
+}
+
+.pa-user-pic {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+
+  > img {
+    width: 100%;
+  }
+}
 
 // Panel Stats
 #pa-panel-stats {
@@ -210,7 +235,9 @@
 
   > span {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
   }
 
   > strong {

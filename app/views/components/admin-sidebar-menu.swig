@@ -1,10 +1,10 @@
 <div class="pa-sidebar">
   <ul class="list-unstyled">
-    <li class="active"><a href="#" class="pa-sidebar-menu"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a></li>
-    <li><a href="#" class="pa-sidebar-menu"><i class="fa fa-cogs"></i>&nbsp;&nbsp;Manage</a></li>
-    <li><a href="#" class="pa-sidebar-menu"><i class="fa fa-user"></i>&nbsp;&nbsp;Account</i></a></li>
-    <li><a href="#" class="pa-sidebar-menu"><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Billing</a></li>
-    <li><a href="#" class="pa-sidebar-menu"><i class="fa fa-cog"></i>&nbsp;&nbsp;Settings</a></li>
+    <li><a href="dashboard.html" class="pa-sidebar-menu"><i class="fa fa-dashboard"></i>&nbsp;&nbsp;Dashboard</a></li>
+    <li><a href="manage.html" class="pa-sidebar-menu"><i class="fa fa-cogs"></i>&nbsp;&nbsp;Manage</a></li>
+    <li><a href="account.html" class="pa-sidebar-menu"><i class="fa fa-user"></i>&nbsp;&nbsp;Account</i></a></li>
+    <li><a href="billing.html" class="pa-sidebar-menu"><i class="fa fa-credit-card"></i>&nbsp;&nbsp;Billing</a></li>
+    <li><a href="settings.html" class="pa-sidebar-menu"><i class="fa fa-cog"></i>&nbsp;&nbsp;Settings</a></li>
   </ul>
 
   <div class="pa-sidebar-stats">
