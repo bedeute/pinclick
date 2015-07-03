@@ -21,8 +21,23 @@
       "description": "snip.ly clone",
       "keywords": "html5, css3, Converty"
     },
+    "manage": {
+      "title": "Converty :: Manage",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
+    },
     "account": {
       "title": "Converty :: Account",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
+    },
+    "billing": {
+      "title": "Converty :: Billing",
+      "description": "snip.ly clone",
+      "keywords": "html5, css3, Converty"
+    },
+    "settings": {
+      "title": "Converty :: Settings",
       "description": "snip.ly clone",
       "keywords": "html5, css3, Converty"
     }

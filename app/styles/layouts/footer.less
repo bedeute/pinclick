@@ -22,8 +22,14 @@
 .footer {
 	color: #7b838b;
 	background-color: #2a3948;
-	font-family: @merriweather-font-family;
+	font-family: @alegreyaSans;
 	font-weight: 200;
+	position: absolute;
+	height: 274px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: auto;
 
 	.logotype {
 		font-size: 52px;
@@ -61,6 +67,18 @@
 				}
 			}
 		}
+	}
+}
+
+.pa-footer {
+	background-color: #f3f3f3;
+	height: 40px;
+	padding: 6px 20px;
+	left: 260px;
+	.transition(all 0.18s ease-in-out);
+
+	&.stretch {
+		left: 0;
 	}
 }
 

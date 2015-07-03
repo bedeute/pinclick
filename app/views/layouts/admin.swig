@@ -33,15 +33,16 @@
 
   <!-- @if NODE_ENV == 'DISTRIBUTION' -->
   <link rel="stylesheet" href="styles/app.min.css">
-  <script src="scripts/head.all.min.js"></script>
+  <!--head:js-->
+  <!--/head:js-->
   <!-- @endif -->
 </head>
 
-<body>
+<body id="admin-pages">
   {% include "../components/add-cta-modal.swig" %}
   {% include "../components/cta-added-modal.swig" %}
 
-  <div class="admin-wrap">
+  <div class="pa-wrap">
 
     {% include "../components/admin-header.swig" %}
     {% include "../components/admin-sidebar-menu.swig" %}
@@ -50,6 +51,13 @@
     </div>
 
   </div> <!--/.wrap-->
+  <footer class="footer pa-footer">
+    <ul class="list-inline">
+      <li>2015 ©</li>
+      <li><a href="#">Terms of service</a></li>
+      <li><a href="#">privacy</a></li>
+    </ul>
+  </footer>
 
   <!-- @if NODE_ENV == 'DEVELOPMENT' -->
   <!--app:js-->
@@ -57,7 +65,8 @@
   <!-- @endif -->
 
   <!-- @if NODE_ENV == 'DISTRIBUTION' -->
-  <script src="scripts/app.all.min.js"></script>
+  <!--app:js-->
+  <!--/app:js-->
   <!-- @endif -->
 </body>
 

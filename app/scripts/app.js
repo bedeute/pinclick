@@ -16,7 +16,7 @@
     $('#pa-slider-toggle').click(function (e) {
         e.preventDefault();
         e.stopPropagation();
-        $('.pa-body').toggleClass('shrink');
+        $('.pa-body, .footer, .pa-sidebar').toggleClass('stretch');
     });
 
 

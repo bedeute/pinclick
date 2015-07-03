@@ -1,5 +1,6 @@
-.admin-wrap {
+.pa-wrap {
   background-color: #2d3640;
+  min-height: 100%;
 }
 
 // Header
@@ -8,8 +9,8 @@
 .pa-header {
   height: 60px;
   width: 100%;
-  font-family: @merriweather-font-family;
-  font-weight: 300;
+  font-family: @alegreyaSans;
+  font-weight: bold;
   &:extend( .clearfix all);
 
   > .logoset {
@@ -24,6 +25,7 @@
     color: #9bb2c8;
 
     &:hover,
+    &:focus,
     &:active {
       color: @brand-primary;
       text-decoration: none;
@@ -84,7 +86,13 @@
   color: #98a2ab;
   font-family: @alegreyaSans;
   font-weight: 300;
+  left: 0;
   font-size: 16px;
+  .transition(all 0.18s 0.04s ease-in-out);
+
+  &.stretch {
+    left: -260px;
+  }
 
   > ul {
     > li {
@@ -145,15 +153,15 @@
   background-color: #f3f3f3;
   color: #555;
   margin-left: 260px;
-  min-height: 100%;
+  min-height: 540px;
   position: relative;
   z-index: 2;
   border-top-left-radius: 6px;
-  .box-shadow(0 0 2px rgba(0, 0, 0, 0.15));
+  border-top-right-radius:   6px;
   padding: 20px;
   .transition(all 0.18s ease-in-out);
 
-  &.shrink {
+  &.stretch {
     margin-left: 0;
   }
 }
@@ -171,13 +179,31 @@
 }
 
 .pa-box-header {
-  margin: 0 -20px 20px;
-  padding: 0 16px 10px;
+  &:extend(.clearfix all);
+  margin: -4px -20px 16px;
+  padding: 0 16px 8px;
   border-bottom: 1px solid #eee;
 
   > h1,h2,h3,h4,h5 {
     margin: 0 auto;
   }
+}
+
+#manage-box-header {
+  padding: 10px inherit 20px;
+
+  > .pull-right {
+    > .list-inline {
+      li {
+        float: left;
+      }
+    }
+  }
+}
+
+.pa-box-body {
+  margin-left: -6px;
+  margin-right: -6px;
 }
 
 .pa-box-wellcome {
@@ -193,17 +219,30 @@
 // User wrap
 .pa-user {
   &:extend(.clearfix all);
-  padding: 12px;
+  // padding: 12px;
 }
 
 .pa-user-pic {
   display: inline-block;
   width: 80px;
   height: 80px;
+  margin-right: 8px;
 
   > img {
+    border-radius: 4px;
     width: 100%;
   }
+}
+
+.pa-user-body {
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.pa-user-name {
+  font-size: 32px;
+  display: block;
 }
 
 // Panel Stats
@@ -217,21 +256,28 @@
   .box-shadow(0 2px 2px rgba(0, 0, 0, 0.03));
   border-radius: 5px;
   margin-bottom: 14px;
+  height: 66px;
 }
 
 .pa-panel-icon {
   float: left;
-  // margin: 6px 6px 6px 0;
-  padding: 18px;
   background-color: whitesmoke;
   color: white;
+  width: 60px;
+  height: 66px;
+  margin-right: 4px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+  text-align: center;
+
+  > .fa {
+    margin-top: 18px;
+  }
 }
 
 .pa-panel-body {
   overflow: hidden;
-  padding: 10px 8px 11px 4px;
+  padding: 8px 6px;
 
   > span {
     font-weight: bold;
@@ -316,5 +362,51 @@
     font-size: @font-size-base - 2px;
     .transition(all 0.16s ease-in);
     opacity: 0;
+  }
+}
+
+
+// Billing 
+.pa-plan {
+
+  > .pa-panel {
+    border: 1px solid #f9f9f9;
+  }
+}
+
+.pa-subscription {
+  padding: 16px 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 22px;
+  > label {
+    font-size: 14px;
+  }
+}
+
+.pa-plan-features {
+  margin-top: 8px;
+  background-color: #fcfcfc;
+  border: 1px solid #eee;
+  padding: 12px;
+  border-radius: 4px;
+
+  label {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .list-inline {
+    margin: 0;
+
+    > li {
+
+      &:before {
+        content: "\f058";
+        font-family: 'FontAwesome';
+        margin-right: 5px;
+        font-family: 12px;
+      }
+    }
   }
 }
