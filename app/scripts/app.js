@@ -61,6 +61,7 @@
         }
     });
 
+
     // Bars
     $.plot($('#graph-bars'), graphData, {
         series: {
@@ -86,6 +87,34 @@
         }
     });
 
+    $.plot($('#graph-lines-2'), graphData, {
+
+        series: {
+            points: {
+                show: true,
+                radius: 5
+            },
+            lines: {
+                show: true
+            },
+            shadowSize: 0
+        },
+        grid: {
+            color: '#646464',
+            borderColor: 'transparent',
+            borderWidth: 2,
+            hoverable: true
+        },
+        xaxis: {
+            tickColor: 'transparent',
+            tickDecimals: 2
+        },
+        yaxis: {
+            tickSize: 1000
+        }
+
+    });
+
     function showTooltip(x, y, contents) {
         $('<div id="tooltip">' + contents + '</div>').css({
             top: y - 16,
@@ -95,7 +124,7 @@
 
     var previousPoint = null;
 
-    $('#graph-lines, #graph-bars').bind('plothover', function (event, pos, item) {
+    $('#graph-lines, #graph-lines-2, #graph-bars').bind('plothover', function (event, pos, item) {
         if (item) {
             if (previousPoint != item.dataIndex) {
                 previousPoint = item.dataIndex;

@@ -160,15 +160,26 @@
       </div>
     </div>
     <div class="col-sm-6">
-      <div class="pa-box pa-graph pa-graph-orange">
+      <div class="pa-box pa-graph pa-graph-yellow">
         <div class="pa-graph-title">
-          Clicks
+          Conversions
         </div>
         <div class="graph-container">
           <div id="graph-bars"></div>
         </div>
       </div>
     </div>
+    <div class="col-sm-6">
+      <div class="pa-box pa-graph pa-graph-green">
+        <div class="pa-graph-title">
+          Conversion Rate
+        </div>
+        <div class="graph-container">
+          <div id="graph-lines-2"></div>
+        </div>
+      </div>
+    </div>
+    
   </div>
 
   <br>
