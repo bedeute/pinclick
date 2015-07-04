@@ -53,8 +53,34 @@
   vertical-align: top;
   padding: 15px;
 
+  > a {
+    display: inline-block;
+  }
 
-  > img {
+  > .dropdown-menu {
+    right: 0;
+    left: auto;
+    background-color: #2d3640;
+    margin-top: 0;
+    border-radius: 0;
+    border: none;
+
+    > li {
+      > a {
+        color: #9bb2c8;
+        background-color: inherit;
+
+        &:focus,
+        &:active,
+        &:hover {
+          color: @brand-primary;
+        }
+      }
+    }
+  }
+
+
+  img {
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 8px;
   }
@@ -78,7 +104,7 @@
 // ------------------------------
 
 .pa-sidebar {
-  width: 260px;
+  width: 240px;
   position: absolute;
   top: 60px;
   bottom: 0;
@@ -91,7 +117,7 @@
   .transition(all 0.18s 0.04s ease-in-out);
 
   &.stretch {
-    left: -260px;
+    left: -240px;
   }
 
   > ul {
@@ -152,7 +178,7 @@
 .pa-body {
   background-color: #f3f3f3;
   color: #555;
-  margin-left: 260px;
+  margin-left: 240px;
   min-height: 540px;
   position: relative;
   z-index: 2;
@@ -287,7 +313,9 @@
   }
 
   > strong {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
   }
 }
 

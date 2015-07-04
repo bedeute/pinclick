@@ -14,7 +14,7 @@
 </div>
 
 <div class="row">
-  <div class="col-sm-7">
+  <div class="col-md-7 col-sm-12">
     <div class="pa-box">
       <div class="pa-box-header">
         <h4>Change Password</h4>
@@ -48,7 +48,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-5">
+  <div class="col-md-5 col-sm-12">
     <div class="pa-box">
       <div class="pa-box-header">
         <h4>Change Email</h4>
@@ -86,7 +86,7 @@
       <span class="text-muted">Disable your login and set all your snips to redirect to their destination URL (no call-to-actions will be shown)</span>
     </div>
     <div class="col-sm-3">
-      <button type="button" class="btn btn-danger btn-block">Deactivate Account</button>
+      <button type="button" class="btn btn-danger btn-block" style="margin-top: 6px;">Deactivate Account</button>
     </div>
   </div>
 </div>

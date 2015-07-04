@@ -14,7 +14,7 @@
     <a href="#" class="pa-header-search"><i class="fa fa-search"></i></a>
     <div class="pa-header-acct dropdown">
       <a href="#" class="" data-toggle="dropdown">
-        <span>Your Name <i class="fa fa-caret-down"></i>&nbsp;</span>
+        <span>Your Name <i class="fa fa-angle-down"></i>&nbsp;&nbsp;&nbsp;</span>
         <img src="images/testi-image-dummy.jpg" width="30" height="30">
       </a>
       <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownCaHeaderAcct">

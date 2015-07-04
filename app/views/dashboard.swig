@@ -25,7 +25,7 @@
   </div>
 
   <div class="row" id="pa-panel-stats">
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-green">
         <div class="pa-panel-icon">
           <i class="fa fa-check fa-2x"></i>
@@ -40,7 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-blue">
         <div class="pa-panel-icon">
           <i class="fa fa-hand-o-up fa-2x"></i>
@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-yellow">
         <div class="pa-panel-icon">
           <i class="fa fa-compress fa-2x"></i>
@@ -70,7 +70,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-turquoise">
         <div class="pa-panel-icon">
           <i class="fa fa-signal fa-2x"></i>
@@ -85,7 +85,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-purple">
         <div class="pa-panel-icon">
           <i class="fa fa-globe fa-2x"></i>
@@ -100,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-pink">
         <div class="pa-panel-icon">
           <i class="fa fa-file-text fa-2x"></i>
@@ -115,7 +115,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-orange">
         <div class="pa-panel-icon">
           <i class="fa fa-laptop fa-2x"></i>
@@ -130,7 +130,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-xs-12 col-sm-6">
       <div class="pa-panel pa-panel-red">
         <div class="pa-panel-icon">
           <i class="fa fa-soccer-ball-o fa-2x"></i>
@@ -149,7 +149,7 @@
 
   <!-- Chart --->
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="pa-box pa-graph pa-graph-blue">
         <div class="pa-graph-title">
           Clicks
@@ -159,7 +159,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="pa-box pa-graph pa-graph-yellow">
         <div class="pa-graph-title">
           Conversions
@@ -169,7 +169,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="pa-box pa-graph pa-graph-green">
         <div class="pa-graph-title">
           Conversion Rate
