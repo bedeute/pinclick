@@ -1,2 +1,41 @@
+//
+// Heading
+//
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @merriweather-font-family;
+}
+
+
 // form
 //----------------------------
+.form-control {
+
+	&:hover {
+		.placeholder(#777);
+	}
+
+	&:focus {
+		.placeholder(#777);
+		.box-shadow(inset 0 0 2px @brand-primary);
+		border-color: #4ecdc4;
+		
+	}
+}
+
+
+
+
+// Chartist
+//----------------------------
+.pa-graph {
+
+	.ct-series-a .ct-bar,
+	.ct-series-a .ct-line,
+	.ct-series-a .ct-slice-donut {
+		stroke: rgba(255, 255, 255, 0.75);
+	}
+	.ct-series-a .ct-point {
+		stroke: white;
+	}
+}

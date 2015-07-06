@@ -51,6 +51,7 @@
     </div>
 
   </div> <!--/.wrap-->
+  {% include "../components/cta-bar.swig" %}
   <footer class="footer pa-footer">
     <ul class="list-inline">
       <li>2015 ©</li>

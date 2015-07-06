@@ -1,6 +1,6 @@
 <div class="main-nav">
 	<div class="main-nav-inner">
-		<a href="#" class="logoset">
+		<a href="index.html" class="logoset">
 			<img src="images/pinclick-logo-white-96x18.png">
 		</a>
 

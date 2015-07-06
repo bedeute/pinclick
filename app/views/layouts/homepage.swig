@@ -50,7 +50,7 @@
 
     <div class="breaker"></div>
   </div> <!--/.wrap-->
-
+  {% include "../components/nav-overlay.swig" %}
   {% include "../components/footer.swig" %}
 
   <!-- @if NODE_ENV == 'DEVELOPMENT' -->
@@ -59,7 +59,8 @@
   <!-- @endif -->
 
   <!-- @if NODE_ENV == 'DISTRIBUTION' -->
-  <script src="scripts/app.all.min.js"></script>
+  <!--app:js-->
+  <!--/app:js-->
   <!-- @endif -->
 </body>
 

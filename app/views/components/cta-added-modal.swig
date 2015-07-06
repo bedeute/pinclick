@@ -14,7 +14,7 @@
               </span>
             </div>
           </div>
-          <a href="#" class="btn btn-default btn-lg">&nbsp;&nbsp;&nbsp;Preview&nbsp;&nbsp;&nbsp;</a>
+          <a href="#" class="btn btn-default btn-edge-lite btn-lg">&nbsp;&nbsp;&nbsp;Preview&nbsp;&nbsp;&nbsp;</a>
         </div>
       </div>
     </div><!-- /.modal-content -->

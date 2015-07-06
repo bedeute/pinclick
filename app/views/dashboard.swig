@@ -15,7 +15,7 @@
   </div>
 
   <div class="pa-box pa-box-overview">
-    <h4 class="pull-left">Overview</h4>
+    <h4 class="pull-left pa-box-title">Overview</h4>
     <div class="pull-right form-inline">
       <span>Showing analytics from</span>
       <input type="input" class="form-control datepicker"  placeholder="input">
@@ -149,7 +149,7 @@
 
   <!-- Chart --->
   <div class="row">
-    <div class="col-md-6 col-sm-6 col-xs-12">
+    {# <div class="col-md-6 col-sm-6 col-xs-12">
       <div class="pa-box pa-graph pa-graph-blue">
         <div class="pa-graph-title">
           Clicks
@@ -176,6 +176,26 @@
         </div>
         <div class="graph-container">
           <div id="graph-lines-2"></div>
+        </div>
+      </div>
+    </div> #}
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="pa-box pa-graph pa-graph-blue">
+        <div class="pa-graph-title">
+          Clicks
+        </div>
+        <div class="pa-box-body">
+          <div id="ct-chart-1" class="ct-chart ct-perfect-fourth"></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="pa-box pa-graph pa-graph-green">
+        <div class="pa-graph-title">
+          Conversion Rate
+        </div>
+        <div class="pa-box-body">
+          <div id="ct-chart-2" class="ct-chart ct-perfect-fourth"></div>
         </div>
       </div>
     </div>

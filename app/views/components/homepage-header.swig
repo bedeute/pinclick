@@ -1,5 +1,5 @@
 <header class="header">
-	<a href="#" class="logoset">
+	<a href="index.html" class="logoset">
 		<img src="images/pinclick-logo-white.png">
 	</a>
 	<div class="floral-divider"></div>

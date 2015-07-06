@@ -14,6 +14,10 @@ body {
   }
 }
 
+.subheadline {
+  font-family: @merriweather-font-family;
+}
+
 .counter-click {
   margin-bottom: 20px;
 }
@@ -258,6 +262,7 @@ body {
 // --------------------------------------------------
 
 .pricing {
+  margin-top: 20px;
   position: relative;
   &:extend( .clearfix all);
 
@@ -349,8 +354,89 @@ body {
 .price-action {
   padding: 8px 12px 12px;
 
-  > .btn.btn-primary.btn-lg {
-    // width: 48%;
+  > .price-btn-free {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 723px) {
+  .pricing {
+    max-width: 500px;
+    margin: 10px auto;
+  }
+
+  .price-card {
+    width: 50%;
+    padding-top: 24px;
+  }
+
+  .price-card-inner {
+    border-radius: 8px;
+  }
+
+  .price-label {
+    padding: 10px !important;
+  }
+
+  .price-amount {
+    padding: 18px 12px !important;
+  }
+
+  .price-action {
+    padding: 8px 12px 12px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pricing {
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+  .price-label {
+    font-size: 18px;
+  }
+
+  .price-amount {
+    font-size: 40px;
+  }
+
+  .price-action {
+    > button {
+      > span {
+        display: block;
+      }
+    }
+
+    > .price-btn-xs-hide {
+      display: none;
+    }
+
+    > .price-btn-free {
+      display: block;
+    }
+  }
+}
+
+#pricing-action-section {
+  background-color: #f5f5f5;
+  border-top: 2px solid #eee;
+
+  .input-group {
+    margin: 20px;
+
+    > input {
+      background-color: #f5f5f5;
+      border-color: @brand-primary;
+      .box-shadow(none);
+
+      &:focus,
+      &:active {
+        .box-shadow(inset 0 0 3px @brand-primary);
+        background-color: #fafafa;
+      }
+    }
   }
 }
 

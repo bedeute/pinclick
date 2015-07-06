@@ -131,6 +131,4 @@
   </div>
 </div>
 
-{% include "components/cta-bar.swig" %}
-
 {% endblock %}

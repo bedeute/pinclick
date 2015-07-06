@@ -45,7 +45,8 @@
 							</li>
 						</ul>
 						<div class="price-action">
-						<button type="button" class="btn btn-default btn-lg btn-block">Get Started</button>
+							<button type="button" class="btn btn-default btn-lg btn-block price-btn-free">Apply</button>
+							<button type="button" class="btn btn-default btn-lg btn-block price-btn-xs-hide" style="margin-top: 0;"><span>Get</span> <span>Started</span></button>
 						</div>
 					</div>
 				</div>
@@ -76,7 +77,7 @@
 						</ul>
 						<div class="price-action">
   						<button type="button" class="btn btn-default btn-lg">Try</button>
-  						<button type="button" class="btn btn-primary btn-lg">Buy</button>
+  						<button type="button" class="btn btn-primary btn-lg price-btn-xs-hide">Buy</button>
 						</div>
 					</div>
 				</div>
@@ -107,7 +108,7 @@
 						</ul>
 						<div class="price-action">
 						<button type="button" class="btn btn-default btn-lg">Try</button>
-						<button type="button" class="btn btn-primary btn-lg">Buy</button>
+						<button type="button" class="btn btn-primary btn-lg price-btn-xs-hide">Buy</button>
 						</div>
 					</div>
 				</div>
@@ -138,7 +139,7 @@
 						</ul>
 						<div class="price-action">
 						<button type="button" class="btn btn-default btn-lg">Try</button>
-						<button type="button" class="btn btn-primary btn-lg">Buy</button>
+						<button type="button" class="btn btn-primary btn-lg price-btn-xs-hide">Buy</button>
 						</div>
 					</div>
 				</div>
@@ -146,6 +147,26 @@
 		</div>
   </section>
 
+	<!-- Pricing action -->
+	<section class="section" id="pricing-action-section">
+		<div class="container">
+			<h3 class="headline text-center">
+				Let’s Share, Get Massively Effective Conversion
+			</h3>
+			<p class="text-center subheadline">Get the fast, awesome call-to-action service app for every your links</p>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+					<div class="input-group">
+						<input type="text" class="form-control">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-primary">Create</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 {% endblock %}

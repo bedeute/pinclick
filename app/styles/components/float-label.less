@@ -1,0 +1,48 @@
+// Floating Label
+.float-label {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+
+  > input,
+  > textarea,
+  > select {
+    border: 1px solid #ccc;
+    margin: 0;
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 4px;
+    outline: none;
+
+    &:focus {
+      .box-shadow(inset 0 0 2px @brand-primary);
+      border-color: @brand-primary;
+    }
+
+    &:valid {
+      border-color: @brand-primary;
+        + label {
+        opacity: 1;
+        top: -8px;
+        z-index: 3;
+      }
+    }
+  }
+
+  > label {
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: @brand-primary;
+    z-index: -1;
+    position: absolute;
+    left: 15px;
+    top: 7px;
+    font-weight: normal;
+    font-size: @font-size-base - 2px;
+    .transition(all 0.16s ease-in);
+    opacity: 0;
+  }
+}

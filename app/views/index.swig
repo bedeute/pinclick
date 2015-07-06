@@ -71,7 +71,7 @@
 	<section class="homepage-section" id="customer">
 		<div class="container">
 			<h2 class="text-center">Converty on their website</h2>
-			<img src="images/customer-dummy-image.jpg">
+			<img src="images/customer-dummy-image.jpg" class="img-responsive">
 		</div>
 	</section>
 
