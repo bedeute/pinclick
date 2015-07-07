@@ -9,6 +9,43 @@
 
   	$('.hovertip').tooltip();
 
+
+    // colorpicker on create CTA
+
+    $('select[name="colorpicker"]').simplecolorpicker({
+      picker: true,
+      theme: 'fontawesome'
+    }).on('change', function() {
+        var thisParent = $(this).parent('div')
+
+
+        thisParent.find('.colorpicker-input').val(thisParent.find($(this)).val());
+    });
+
+    $
+
+   $('.colorpicker-input').keyup(function() {
+
+    var inputVal = $(this).val(); // grab color input value
+    var target = $('.simplecolorpicker.icon')
+    var thisSiblings = $(this).siblings(target);
+    console.log(inputVal);
+
+    if (inputVal.length > 0)
+    {
+        // replace css value on live preview 
+        thisSiblings.css('backgroundColor', inputVal);  
+    } 
+    else
+    {
+        //resorts back to default if no value entered
+        thisSiblings.css('background', '#000000');   
+    }
+
+  }).each(function(){
+    $(this).val($(this).siblings('select[name="colorpicker"]').val());
+  });
+
     $('.datepicker').pikaday({ firstDay: 1 });
 
 

@@ -5,8 +5,8 @@
         <h4 class="modal-title pull-left">Create CTA</h4>
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <ul class="list-inline pull-right pa-tabs">
-          <li class="active"><a href="#editMsg" data-toggle="tab">Edit Message</a></li>
-          <li><a href="#customizeCta" data-toggle="tab">Customize</a></li>
+          <li class="active"><a href="#editMsg" data-toggle="tab"><i class="fa fa-pencil-square-o visible-xs"></i><span class="hidden-xs">Edit Message</span></a></li>
+          <li><a href="#customizeCta" data-toggle="tab"><i class="fa fa-tint visible-xs"></i><span class="hidden-xs">Customize</span></a></li>
         </ul>
       </div>
       <div class="modal-body">
@@ -17,9 +17,9 @@
               <input type="text" class="" placeholder="Page url" name="pageUrl" required>
               <label for="pageUrl">Page url</label>
             </fieldset>
-            <div class="form-inline" style="margin-bottom: 10px;">
+            <div class="form-inline" style="margin-bottom: 18px;">
               <label>Action Type</label>
-              <div class="pull-right">
+              <div class="message-type-radio">
                 <div class="radio">
                   <label>
                     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
@@ -90,17 +90,47 @@
                 <div class="form-group">
                   <label>Background Color</label>
                   <div class="form-inline">
-                    <span style="display: inline-block; vertical-align: middle; height: 40px; width: 100px; border: 1px solid #ddd;"></span>
-                    <input type="text" value="#ffffff" style="width: 60px;">
+                    <div class="colorpicker-group">
+                      <select name="colorpicker">
+                        <option value="#7bd148">Green</option>
+                        <option value="#5484ed">Bold blue</option>
+                        <option value="#a4bdfc">Blue</option>
+                        <option value="#46d6db">Turquoise</option>
+                        <option value="#7ae7bf">Light green</option>
+                        <option value="#51b749">Bold green</option>
+                        <option value="#fbd75b">Yellow</option>
+                        <option value="#ffb878">Orange</option>
+                        <option value="#ff887c">Red</option>
+                        <option value="#dc2127">Bold red</option>
+                        <option value="#dbadff">Purple</option>
+                        <option value="#e1e1e1">Gray</option>
+                      </select>
+                      <input type="text" class="colorpicker-input">
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-6">
                 <div class="form-group">
-                  <label>Background Color</label>
-                  <div class="form-inline">
-                    <span style="display: inline-block; vertical-align: middle; height: 40px; width: 100px; border: 1px solid #ddd;"></span>
-                    <input type="text" value="#ffffff" style="width: 60px;">
+                  <label>Button Color</label>
+                 <div class="form-inline">
+                    <div class="colorpicker-group">
+                      <select name="colorpicker">
+                        <option value="#46d6db">Turquoise</option>
+                        <option value="#7bd148">Green</option>
+                        <option value="#5484ed">Bold blue</option>
+                        <option value="#a4bdfc">Blue</option>
+                        <option value="#7ae7bf">Light green</option>
+                        <option value="#51b749">Bold green</option>
+                        <option value="#fbd75b">Yellow</option>
+                        <option value="#ffb878">Orange</option>
+                        <option value="#ff887c">Red</option>
+                        <option value="#dc2127">Bold red</option>
+                        <option value="#dbadff">Purple</option>
+                        <option value="#e1e1e1">Gray</option>
+                      </select>
+                      <input type="text" class="colorpicker-input">
+                    </div>
                   </div>
                 </div>
               </div>

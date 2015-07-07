@@ -40,6 +40,7 @@ opts.src = {
       'bower_components/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js',
       'bower_components/pikaday/pikaday.js',
       'bower_components/pikaday/plugins/pikaday.jquery.js',
+      'bower_components/jquery-simplecolorpicker/jquery.simplecolorpicker.js',
       'app/scripts/app.js'
     ]
   },

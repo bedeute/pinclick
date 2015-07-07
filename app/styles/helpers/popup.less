@@ -1,7 +1,10 @@
 .pa-modal {
 
 	.modal-dialog {
-		width: 444px;
+		max-width: 444px;
+		margin: 30px auto;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	.modal-content {
@@ -27,6 +30,11 @@
 				text-decoration: none;
 				color: white;
 				display: inline-block;
+
+				> .visible-xs {
+					padding: 1px 5px;
+					font-size: 18px;
+				}
 			}
 		}
 	}
@@ -48,6 +56,28 @@
 		position: absolute;
 		right: -20px;
 	}
+
+}
+
+.message-type-radio {
+	display: block;
+
+	> .radio {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 724px) {
+	.pa-modal > .modal-dialog {
+		width: 444px;
+	}
+
+	.message-type-radio {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 723px) {
 
 }
 
