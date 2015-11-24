@@ -16,5 +16,6 @@
 		<i class="fa fa-youtube-play fa-4x"></i>
 		Watch Video
 	</a>
+	<a href="#" style="display: block;" href="#postCta" data-toggle="modal">popup button</a>
 
 </header> <!--/.header-->

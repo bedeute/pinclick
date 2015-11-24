@@ -33,14 +33,16 @@ opts.src = {
     ],
     app: [
       'bower_components/jquery/dist/jquery.js',
-      'bower_components/bootstrap/js/**/*.js',
+      'bower_components/bootstrap/dist/js/bootstrap.js',
       // 'bower_components/Flot/jquery.flot.js',
       // 'bower_components/Flot/jquery.flot.resize.js',
       'bower_components/chartist/dist/chartist.min.js',
       'bower_components/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js',
-      'bower_components/pikaday/pikaday.js',
+      'bower_components/pikaday-time/pikaday.js',
       'bower_components/pikaday/plugins/pikaday.jquery.js',
       'bower_components/jquery-simplecolorpicker/jquery.simplecolorpicker.js',
+      'bower_components/bootstrap-toggle/js/bootstrap-toggle.js',
+      'bower_components/holderjs/holder.js',
       'app/scripts/app.js'
     ]
   },

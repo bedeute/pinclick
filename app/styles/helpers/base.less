@@ -452,3 +452,144 @@ body {
 .price-card-green {
   .price-card-color(@flat-green);
 }
+
+
+
+// social media integration
+// ----------------------------------------------------------
+.smi-tabs-wrap {
+  &:extend(.clearfix all);
+}
+
+.smi-tabs {
+  float: left;
+  width: 160px;
+  > li {
+
+    &.active>a, 
+    &.active>a:focus, 
+    &.active>a:hover {
+      border-right: 3px solid @brand-primary;
+    }
+
+    a {
+      border-right: 2px solid #ddd;
+      display: block;
+      padding: 8px 4px;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        border-right-width: 3px;
+        border-right-color: @brand-primary;
+      }
+    }
+  }
+}
+
+.smi-tab-content {
+  float: left;
+  margin-left: 20px;
+  width: ~"calc(100% - 180px)";
+}
+
+.ps-list {
+  margin: -16px;
+}
+
+.ps-list-date {
+  padding: 10px 15px;
+  color: #777;
+  border-bottom: 1px solid #eee;
+}
+
+.ps-list-item {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom-color: transparent;
+  }
+
+  .media-object {
+    position: relative;
+  }
+
+  .media-heading {
+    font-weight: bold;
+    margin-bottom: 2px;
+
+    > .text-muted {
+      font-weight: normal;
+    }
+  }
+}
+
+.ps-list-item-account-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    color: #fff;
+
+  .ps-list-item-fb & {
+    background-color: #3b5998;
+  }
+
+  .ps-list-item-tw & {
+    background-color: #55acee;
+  }
+
+  .ps-list-item-gp & {
+    background-color: #dd4b39;
+  }
+
+  .ps-list-item-li & {
+    background-color: #007bb6;
+  }
+}
+
+.ps-list-item-media {
+  margin-top: 8px;
+}
+
+.ps-list-item-status {
+  display: inline-block;
+  float: right;
+  font-weight: normal;
+}
+
+.ps-list-item-stats {
+  border: 1px solid #e9e9e9;
+  background-color: #fcfcfc;
+  border-radius: 6px;
+  margin-top: 8px;
+
+  ul {
+    margin-bottom: 0;
+
+    &.list-inline {
+      margin-left: 0;
+    }
+
+    li {
+      padding: 4px 12px;
+      border-right: 1px solid #e9e9e9;
+      color: #999;
+    }
+
+    &.pull-right {
+
+      > li {
+
+        border-right: none;
+        border-left: 1px solid #e9e9e9;
+      }
+    }
+  }
+}
+
